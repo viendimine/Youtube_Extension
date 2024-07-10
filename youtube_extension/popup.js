@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   function searchYouTube(query) {
-    const apiKey = 'AIzaSyBaMSUbARksKDch4UZIVLrSHzN2oLPR3ao'; // Attach_Your_Own_Youtube_Access_API_Key
+    const apiKey = 'YOUR_YOUTUBE_ACCESS_API_KEY'; // Attach_Your_Own_Youtube_Access_API_Key
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${query}&key=${apiKey}`;
     
     fetch(url)
