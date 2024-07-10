@@ -9,8 +9,12 @@
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "logo.jpeg"
+        "16": "logo.png"
       }
+    },
+    "icons" :
+    {
+        "128" : "logo.png"
     },
     "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self';"
