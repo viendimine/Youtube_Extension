@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Search and Play",
+    "version": "1.0",
+    "description": "Search and play YouTube videos within the extension.",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "logo.jpeg"
+      }
+    },
+    "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+  }
+  
